@@ -3,6 +3,10 @@
 = Usage =
 
 # Include jQuery:
-  {{{<script type="text/javascript" src="jquery.js"></script>}}}
+  {{{
+  <script type="text/javascript" src="jquery.js"></script>
+  }}}
 #Include Purr: 
-  {{{<script type="text/javascript" src="jquery.purr.js"></script>}}}
+  {{{
+  <script type="text/javascript" src="jquery.purr.js"></script>
+  }}}
