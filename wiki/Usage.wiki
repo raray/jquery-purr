@@ -2,17 +2,15 @@
 
 = Usage =
 
-  #Include jQuery:
+  # Include jQuery:
   {{{
   <script type="text/javascript" src="jquery.js"></script>
   }}}
-
-  #Include Purr: 
+  # Include Purr: 
   {{{
   <script type="text/javascript" src="jquery.purr.js"></script>
   }}}
-
-  #Build the notice object. This can be done any way you wish, Purr doesn't really care: 
+  # Build the notice object. This can be done any way you wish, Purr doesn't really care: 
   {{{
   <script type="text/javascript">
     var notice = '<div class="notice">'
@@ -25,8 +23,7 @@
       + '</div>'
     + '</div>';
   }}}
-
-  #Once the notice is built, simply call Purr on it: 
+  # Once the notice is built, simply call Purr on it: 
   {{{
     $( notice ).purr();
   </script>
