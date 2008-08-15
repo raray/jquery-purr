@@ -1,0 +1,8 @@
+#Instructions on installing and using JQuery Scroll Follow
+
+= Usage =
+
+# Include jQuery:
+  {{{<script type="text/javascript" src="jquery.js"></script>}}}
+#Include Purr: 
+  {{{<script type="text/javascript" src="jquery.purr.js"></script>}}}
