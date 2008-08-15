@@ -2,11 +2,26 @@
 
 = Usage =
 
-# Include jQuery:
+  #Include jQuery:
   {{{
   <script type="text/javascript" src="jquery.js"></script>
   }}}
-#Include Purr: 
+
+  #Include Purr: 
   {{{
   <script type="text/javascript" src="jquery.purr.js"></script>
+  }}}
+
+  #Build the notice object. This can be done any way you wish, Purr doesn't really care: 
+  {{{
+    <script type="text/javascript">
+      var notice = '<div class="notice">'
+        + '<div class="notice-body">'
+            + '<img src="../static/images/icons/info.png" />'
+           + '<h3>Headline</h3>'
+           + '<p>Message</p>'
+        + '</div>'
+        + '<div class="notice-bottom">'
+        + '</div>'
+      + '</div>';
   }}}
