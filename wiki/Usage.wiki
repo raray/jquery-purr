@@ -28,3 +28,33 @@
     $( notice ).purr();
   </script>
   }}}
+  # Purr accepts several parameters, most of which are adjustments to timing: 
+  {{{
+    $( notice ).purr(
+      {
+        fadeInSpeed: 200,
+        fadeOutSpeed: 2000,
+        removeTimer: 5000
+      }
+    );
+  </script>
+  }}}
+  # The _isSticky_ parameter allows you to set a notice that won't disapear automatically. Instead the user must manually close a sticky message: 
+  {{{
+    $( notice ).purr(
+      {
+        isSticky: true,
+      }
+    );
+  </script>
+  }}}
+  # The final parameter, _usingTransparentPNG_, should be set to true  if the styling of the notice object is dependent on .png images with transparency. IE7 has issues with combining these images with opacity so Purr will skip the fade in and out animations in IE7: 
+  {{{
+    $( notice ).purr(
+      {
+        usingTransparentPNG: true,
+      }
+    );
+  </script>
+  }}}
+  # All styling of the notice, as well as the structure of the notice itself, happens independently of Purr. Purr only controls the behavior of the notice AS a notice. The two minor exceptions to this are the containing div which uses the id "purr-container," and the close button which has a class of "close." Both of these elements are added through Purr but are styled externally. 
