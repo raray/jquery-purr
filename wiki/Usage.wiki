@@ -25,3 +25,9 @@
       + '</div>'
     + '</div>';
   }}}
+
+  #Once the notice is built, simply call Purr on it: 
+  {{{
+    $( notice ).purr();
+  </script>
+  }}}
